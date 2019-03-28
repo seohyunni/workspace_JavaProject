@@ -1,8 +1,12 @@
 package kr.hs.emirim.page;
-import java.util.*;
+
+import java.util.Random;
 
 public class UpAndDownGame {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Random r=new Random();
+		System.out.println(x);
+		int no=r.nextInt(50);
+		
 	}
 }
