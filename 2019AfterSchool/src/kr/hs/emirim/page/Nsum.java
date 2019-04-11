@@ -9,6 +9,10 @@ public class Nsum {
 		//숫자 입력받자
 		//각 자릿수의 수를 더하자
 		//더한 값을 출력자자
+		nSum(sc);
+	}
+
+	private static void nSum(Scanner sc) {
 		int sum=0;
 		System.out.print("숫자 입력 >> ");
 		String n=sc.nextLine();
