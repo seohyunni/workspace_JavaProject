@@ -4,7 +4,7 @@ import java.util.Random;
 
 import java.util.Scanner;
 
-public class RockScissorsPaper {
+public class MookJjiBba {
 	public static void main(String[] args) {
 		String pae[]= {"가위","바위","보"};
 		while(true){
@@ -32,7 +32,14 @@ public class RockScissorsPaper {
 	private static int compare(int p, int c) {
 		int result=0;
 		if((p==1&&c==2)||(p==2&&c==3)||(p==3&&c==1)) { //if((p+1)%3==c)
+			
 			return -1; //사용자가 짐
+			
+			//졋는대....,,다시가위바위보해야하고,,,,,,비기면,,.,.,.이기고,.,.,..,,
+			//근대,,,,..,.이기는사람은,,.,....직전턴에,,,.이긴사람이고,..,,..,.,..,,,.,..,.,.,,.,.,,..,,.,.,.
+			//묵찌빠,,,..,,..폐지,,.,..,.,.기원,..,,.,.,.,..,,.,..,.,,.,,,.,.,.,,..,
+			//다시는,,,,묵찌빠,,.,.,하지안아,.,.,.,.,.,.,.,..,.,.,.,,..,..,.,.,.,.,.ㅠㅠㅠㅠ흐어엉ㅇ어엉어엉ㅇ어어어엉
+			
 		}
 		if((p==1&&c==1)||(p==2&&c==2)||(p==3&&c==3)) {
 			return 0; //비김
